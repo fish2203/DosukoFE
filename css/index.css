@@ -82,10 +82,164 @@ section{
 
 
 @media(min-width: 768px){
+/* 전체 */
+body{
+  font-family: "Inter";
+}
 
+/* 제목 */
+.mainName{
+  display: flex;
+  font-size: 32px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: #7009c1;
+  margin-top: 150px;
+  margin-bottom: 30px;
+}
+
+/* 폼 */
+section{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 각 덩어리 */
+.input{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 15px;
+}
+
+/* 입력창 제목 */
+.input .label{
+  margin-bottom: 3px;
+  size: 24px;
+  font-weight: 700;
+}
+
+/* 입력창 */
+.input .textInput{
+  height: 41px;
+  border: 2px solid black;
+  border-radius: 10px;
+  /* border-style: hidden; */
+  background-color: #d9d9d9;
+}
+
+.input input:focus{
+  background-color: white;
+}
+
+/* 제출버튼 */
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button input{
+  width: 100px;
+  height: 48px;
+  background-color: #7009c1;
+  font-weight: 700;
+  color: white;
+  border-style: hidden;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+.button input:hover{
+  border: 2px solid #7009c1;
+  background-color: #FFF;
+  color: #7009c1;
+}
 
 }
 
 @media(min-width: 1024px){
+/* 전체 */
+body{
+  font-family: "Inter";
+}
 
+/* 제목 */
+.mainName{
+  display: flex;
+  font-size: 32px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: #7009c1;
+  margin-top: 150px;
+  margin-bottom: 30px;
+}
+
+/* 폼 */
+section{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 각 덩어리 */
+.input{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 15px;
+}
+
+/* 입력창 제목 */
+.input .label{
+  margin-bottom: 3px;
+  size: 24px;
+  font-weight: 700;
+}
+
+/* 입력창 */
+.input .textInput{
+  height: 41px;
+  border: 2px solid black;
+  border-radius: 10px;
+  /* border-style: hidden; */
+  background-color: #d9d9d9;
+}
+
+.input input:focus{
+  background-color: white;
+}
+
+/* 제출버튼 */
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button input{
+  width: 100px;
+  height: 48px;
+  background-color: #7009c1;
+  font-weight: 700;
+  color: white;
+  border-style: hidden;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+.button input:hover{
+  border: 2px solid #7009c1;
+  background-color: #FFF;
+  color: #7009c1;
+}
 }
