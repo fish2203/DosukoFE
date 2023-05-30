@@ -21,18 +21,18 @@
       <!-- 학번 입력 -->
       <div class="input">
         <p class="label">학번</p>
-        <input class="textInput" type="text" name="studentId" required minlength="7" maxlength="7" placeholder="ex.1234567">
+        <input class="textInput" id="studentId" type="text" name="studentId" required minlength="7" maxlength="7" placeholder="ex.1234567">
       </div>
 
       <!-- 이름 입력 -->
       <div class="input">
         <p class="label">이름</p>
-        <input class="textInput" type="text" name="name" required minlength="2" maxlength="10" placeholder="ex.김스파">
+        <input class="textInput" id="name" type="text" name="name" required minlength="2" maxlength="10" placeholder="ex.김스파">
       </div>
 
       <!-- 제출 -->
       <div class="button">
-        <input class="btn" type="button" value="LOG IN" onclick="check_again()">
+        <input class="btn" type="button" value="LOG IN" onclick="check_idpw()">
       </div>
     </form>
   </section>

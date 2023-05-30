@@ -17,3 +17,14 @@ function shutdown_modal(){
   button.style.visibility = 'visible';
   body.style.backgroundColor = 'white'
 }
+
+function check_idpw(){
+  const id = document.getElementById("studentId").value
+  const pw = document.getElementById("name").value
+  if(id == '1614378' && pw == '어진아'){
+    location.replace("./main.html")
+  }
+  else{
+    check_again()
+  }
+}
