@@ -7,6 +7,29 @@
   <title>SFA 도서 대출 시스템</title>
 </head>
 <body>
-  <p>메인페이지 입니다.</p>
+  <header>
+    <div class="mainName">SFA 도서 대출 시스템</div>
+  </header>
+
+  <!-- 도서검색 -->
+  <section class="searchSection">
+    <div class="title">도서 검색</div>
+    <div class="search">
+      <form class="findbook" action="" method="post">
+        <select name="tag" id="tag">
+          <option value="title">제목</option>
+          <option value="author">저자</option>
+          <option value="number">도서번호</option>
+        </select>
+        <input type="text"/>
+        <input type="button" value="검색">
+      </form>
+    </div>
+  </section>
+
+  <!-- 나의 현황 -->
+  <section class="nowMySection">
+
+  </section>
 </body>
 </html>
